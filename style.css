@@ -5,8 +5,11 @@ body{
 }
 a{
     text-decoration: none;
+    
 }
-#mySidebar {
-    display: none;
-    transition: display 2.5s ease;
+h1.corp{
+    text-align: center;
+    font-size: 50px;
+
 }
+
