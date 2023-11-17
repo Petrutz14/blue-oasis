@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script>
+    function to_open() {
+        var sidebar = document.getElementById("mySidebar");
+        sidebar.style.display = "block";
+        void sidebar.offsetWidth;
+    }
+
+    function to_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="AI Powered Mental Health Care Website">
+    <meta name="keywords" content="mental health,health,mind,problems,LGBTQ,veteran,racism,school,highschool,college,university,war,depresion,anxiety,PTSD,help">
+    <meta name="author" content="The Trompi Elephants"> 
+
+    <!-- Iconita -->
+    <link rel="icon" href="icoana.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icoana.png" type="image/x-icon">
+
+
+    <title>Blue Oasis</title>
+</head>
+
+
+<body>
+    <!--Bara Navigatie -->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="to_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="chat.html" class="w3-bar-item w3-button">Chat</a>
+        <a href="#" class="w3-bar-item w3-button">Test</a>
+      </div>
+
+      <!-- Continut -->
+      <div id="content">
+        <button class="w3-button w3-xlarge" onclick="to_open()">☰</button>
+
+      </div>
+    
+</body>
+</html>
