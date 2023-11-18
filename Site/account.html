@@ -1,0 +1,92 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Nav Buttons-->
+    <script>
+    function to_open() {
+        document.getElementById("sidebar").style.display = "block";
+    }
+
+    function to_close() {
+        document.getElementById("sidebar").style.display = "none";
+    }
+    </script>
+
+    <!-- Connecting to db -->
+    <script>
+        var mysql = require('mysql');
+
+        var con = mysql.createConnection({
+        host: "localhost",
+        user: "root",
+        password: "root",
+        insecureAuth: true
+        });
+    </script>
+
+    <!-- Login System -->
+
+    <script>
+        function login() {
+            document.getElementById("logintext").style.display="";
+            document.getElementById("butoane").style.display = "none";
+            document.getElementById("createacctext").style.display="none";
+        }
+        function signup() {
+            document.getElementById("createacctext").style.display="";
+            document.getElementById("butoane").style.display = "none";
+            document.getElementById("logintext").style.display="none";
+        }
+        
+        function check_account(){
+
+        }
+        
+        function add_account(){
+
+        }
+
+        function loadacc() {
+            //wip
+        }
+    </script>
+
+    <!-- Librarii -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Iconita -->
+    <link rel="icon" href="Fisiere/icoana.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Fisiere/icoana.png" type="image/x-icon">
+
+    <title>Blue Oasis - Accounts</title>
+</head>
+
+<body>
+    <p>Choose to Log In or to Sign Up</p>
+    <!-- Butoane -->
+    <div id="butoane">
+        <button onclick="login()">Log In</button>
+        <button onclick="signup()">Sign Up</button>
+    </div>
+    <!-- Login -->
+    <div id="logintext" style="display:none">
+        <input type="text" placeholder="Your E-mail">
+        <input type="password" placeholder="Your password">
+        <button onclick="check_account()">Log In</button>
+        <button onclick="signup()">Or Create an account</button>
+    </div>
+
+    <!-- Create account -->
+    <div id="createacctext" style="display:none"> 
+        <input type="text" placeholder="Your name">
+        <input type="text" placeholder="Your E-mail">
+        <input type="password" placeholder="Your password">
+        <input type="password" placeholder="Repeat your password">
+        <button onclick="add_account()">Sign Up</button>
+        <button onclick="login()">Log In if you already have an account</button>
+    </div>
+</body>
+</html>
