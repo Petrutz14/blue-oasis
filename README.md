@@ -1,6 +1,6 @@
 # Blue Oasis: AI-Powered Online Therapy Platform
 ## Introduction
-Welcome to Blue Oasis, an innovative online therapy platform developed during the 2023 Unihack in Timisoara. Blue Oasis leverages cutting-edge artificial intelligence (AI) technology to provide a personalized and confidential space for mental health support.
+Welcome to Blue Oasis, an innovative online therapy platform developed during the 2023 Unihack in Timisoara. Blue Oasis leverages cutting-edge artificial intelligence (GPT-3.5 Turbo) technology to provide a personalized and confidential space for mental health support.
 
 ## Features
 1. AI-Powered Matchmaking
