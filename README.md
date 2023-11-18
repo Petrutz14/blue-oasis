@@ -19,8 +19,8 @@ Mental health support is available around the clock, providing users with the fl
 Blue Oasis prioritizes user privacy, employing state-of-the-art security measures to protect data and ensure a confidential therapeutic space.
 
 ## Getting Started
-Sign Up:
-Create your Blue Oasis account to get started on your mental health journey.
+### Sign Up:
+- Create your Blue Oasis account to get started on your mental health journey.
 
-Complete Profile(WIP):
-Provide information to help our AI algorithms match you with the most suitable AI therapist.
+### Complete Profile(WIP):
+- Provide information to help our AI algorithms match you with the most suitable AI therapist.
