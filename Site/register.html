@@ -32,29 +32,33 @@
     <link rel="shortcut icon" href="Fisiere/icoana.png" type="image/x-icon">
 
 
-    <title>Home</title>
+    <title>Sign In</title>
 </head>
 
 <body>
     <!--Bara Navigatie -->
     
-    <div class="w3-sidebar w3-bar-block w3-border-right w3-animate-opacity w3-indigo" style="display:none" id="sidebar">
-        <button onclick="to_close()" class="w3-bar-item w3-large w3-animate-right w3-indigo custom-margin1 w3-hover-black" style="font-size:20px">Close &times;</button>
-
-        <a href="index.html" class="w3-bar-item w3-button w3-hover-black">Home</a>
-        <a href="chat.html" class="w3-bar-item w3-button w3-hover-black">Chat</a>
-        <a href="about.html" class="w3-bar-item w3-button w3-hover-black">About</a>
-        <a href="register.html" class="w3-bar-item w3-button w3-hover-black w3-display-bottomleft w3-margin-bottom-large custom-margin">Sign Up</a> 
-
-        <a href="account.html" class="w3-bar-item w3-button w3-hover-black w3-display-bottomleft ">Login</a>
-    </div>
-    
-    <div class="w3-container w3-indigo">
-        <button class="w3-button w3-xlarge w3-hover-black corp" onclick="to_open()">☰</button>
-        <h1 class="corp"><img src="Fisiere/logo-no-background.png" width="180px"></h1>
-    </div>
-
-
+    <br>
+    <div><a href="index.html"><img src="Fisiere/icoana.png" width="40px" class="logos"><img src="Fisiere/logo-no-background-blue.png" width="150px" class="logos1"></a></div>
+        <!--Cadranul de informatii-->
+        
+    <center>
+    <span class="titlu">Create an account</span><br>
+    <span class="text">Complete the fields below in order to create an account.</span><br><br>
+    <br>
+    <div class="chenar" center>
+    <form action="">
+    <div><input name="lnume" id="fnume" class="input" type="text" placeholder="Your full name" name="nume"></div>
+     <div><input id="mail" class="input" type="email" placeholder="E-mail" name="email"></div>
+     <div><input name="pass" class="input" type="password" placeholder="Password" name="password"></div>
+     <div><input name="vpass" class="input" type="password" placeholder="Verify password" name="verpass"></div>
+     <div><button type="submit" value="Sign Up" id="myButton" class="buton">Create account</button></div>
+    <div>
+        <span class="already">Already have an account? <a href="account.html">Click here!</a></span>
+        <div><span class="spatiu">Want to go back?<a href="index.html"> Click here!</a></span></div>
+    </div></div>
+</form>
+</center>
 
     </body>
     </html>
