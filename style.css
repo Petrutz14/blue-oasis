@@ -2,14 +2,33 @@ body{
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(219, 219, 248),rgb(219, 219, 248));
 }
 a{
     text-decoration: none;
-    
 }
 h1.corp{
     text-align: center;
-    font-size: 50px;
-
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
+#sidebar a{
+    font-size:20px;
+}
+button.w3-button.w3-xlarge.w3-hover-black{
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:absolute;
+    opacity:1;  
+} 
+button.w3-button.w3-xlarge.w3-hover-black:hover{
+    opacity:0.5;
+} 
+.w3-container{
+    align-self:center;
+}
+.w3-bar-item1{
+    align right: ;
+}
